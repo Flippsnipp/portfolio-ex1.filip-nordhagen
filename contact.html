@@ -40,20 +40,77 @@
     <main>
         <div class="contactform">
             <div class="container">
-                <div class="fName">
-                    <label for="fName">First Name</label>
-                    <input type="text" id="frontName" name="frontName">
-                </div>
-                <div class="sName">
-                    <label for="sName">Sir Name</label>
-                    <input type="text" id="sirName" name="sirName">
-                </div>
-                <div class="eMail">
-                    <label for="email">E-Mail Address</label>
-                    <input type="text" id="email" name="email">
-                </div>
-            </div>
-        </div>
+              <form action="action_page.php">
+                <div class="userOptions">
+                  <h3>
+                    Contact Description
+                  </h3>
+                  <p>
+                    Hi there, If yo want to get a hold of me for job-offers, projects, questions or just feedback in general.
+                    Write me a few words and I will get back to you.
+                  </p>
+                  <h4>
+                    User Options
+                  </h4>
+                  <label for="user-options">
+                  </label>
+                  <select id="userOptions" name="userOptions">
+                    <option value="job-offer">
+                      Job-Offer
+                    </option>
+                    <option value="projects">
+                      Projects
+                    </option>
+                    <option value="questions">
+                      Questions
+                    </option>
+                    <option value="feedback">
+                      Feedback on Page
+                    </option>
+                    <option value="other">
+                        Other
+                    </option>
+                  </select>
+                </div><!--closes "userOptions"-->
+                <div class="nameandemail">
+                  <h3>
+                    Contact information
+                  </h3>
+                  <div class="firstName">
+                    <label for="fName">
+                      First Name
+                    </label>
+                    <input type="text" id="fname" name="first-name" placeholder="Your first name...">
+                  </div><!--closes "firstName"-->
+                  <div class="firstName">
+                    <label for="lName">
+                      Last Name
+                    </label>
+                    <input type="text" id="fname" name="last-name" placeholder="Your last name...">
+                  </div><!--closes "name"-->
+                  <div class="email">
+                    <label for="email">
+                      Email address
+                    </label>
+                    <input type="text" id="email" name="email" placeholder="Your e-mail address...">
+                  </div><!--closes "email"-->
+                </div><!--closes "nameandemail"-->
+                <div class="textarea">
+                  <h3>
+                    Subject
+                  </h3>
+                  <label for="subject">
+                  </label>
+                  <p>
+                    Write me a few lines and I will get back to you within 2 working days.
+                  </p>
+                  <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px">
+                  </textarea>
+                </div><!--closes "textarea"-->
+                <input type="submit" value="Submit" />
+              </form><!--closes "action_page.php"-->
+            </div><!--closes "container"-->
+        </div><!--closes "contactform"-->  
     <footer>
         <nav class="navigationFooter">
             <ul>
