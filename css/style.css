@@ -1,0 +1,84 @@
+
+
+body {
+    background-color: blue;
+    color: white;
+    
+ }
+
+
+h1, h2, h3, h4, h5, h6 {
+    
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 5px;
+}
+
+h2 {
+    padding: 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#step3 {
+
+}
+
+#step2 {
+    
+}   
+
+#step1 {
+
+} 
+
+ul {
+    list-style-type: none;
+
+}
+
+.headerList {
+    text-align: right;
+    font-size: larger;
+}
+
+main {
+    background-color: grey;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 2em;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 0;
+
+}
+
+.footerList {
+    text-align: left;
+}
+
+h5 {
+    text-align: center;    
+}
+
+.allRightsReserved {
+    text-align: center;
+}
+
