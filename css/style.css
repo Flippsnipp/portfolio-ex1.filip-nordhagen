@@ -1,30 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 
 
+/*....... genral input..............*/
 body {
-    background-color: blue;
-    color: white;
+    background-color: white;
     
  }
 
 
 h1, h2, h3, h4, h5, h6 {
-    
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
 }
 
 h1 {
     font-size: 50px;
     text-align: center;
     padding: 5px;
+    padding-top: 10px;
 }
 
 h2 {
     padding: 10px;
 }
 
+h3 {
+    background-color: blue;
+    padding: 10px;
+}
+
+header {
+    background-color: blue;
+}
+
 header nav a {
     text-decoration: none;
     color: white;
-
+   
 
 }
 
@@ -34,17 +46,6 @@ li {
     padding-left: 10px;
 }
 
-#step3 {
-
-}
-
-#step2 {
-    
-}   
-
-#step1 {
-
-} 
 
 ul {
     list-style-type: none;
@@ -57,7 +58,6 @@ ul {
 }
 
 main {
-    background-color: grey;
     margin-right: auto;
     margin-left: auto;
     padding: 2em;
@@ -82,3 +82,40 @@ h5 {
     text-align: center;
 }
 
+/*.........Homepage.........*/
+
+
+
+/*...........About..........*/
+
+.theThinkerAndMe {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+
+
+/*.............CV............*/
+
+.headersOnTopic {
+    background-color: blue;
+    margin-bottom: 2px;
+
+}
+
+.icons {
+    height: 50px;
+    width: 50px;
+    float: right;
+    padding: 2px;
+}
+
+.lessonsLearned {
+    margin-top: 0em;
+}
+
+label {
+    background-color: lightgrey;
+}
+/*.........Contact............*/
