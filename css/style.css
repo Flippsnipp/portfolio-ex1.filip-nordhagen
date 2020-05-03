@@ -58,7 +58,7 @@ header nav a {
 }
 
 header nav a:hover {
-    font-size: 15px;
+    font-size: 16px;
   }
 
 li {
@@ -97,19 +97,31 @@ main {
     padding: 2em;
 }
 
+.spacersInBetween {
+    background-color: #386770;
+}
+
 footer {
     background-size: cover;
-    background-color: #205065;
+    background-color: #001B52;
     text-align: center;
-    height: 400px;
+    width: 100%;
+}
+
+.allRightsReserved {
+    color: white;
+    text-align: center;
 }
 
 footer nav a {
     text-decoration: none;
     color: white;
-    margin-right: 0;
-    display: block;
+}
 
+footer nav ul> li {
+    display: block;
+    text-align: right;
+    padding-right: 12%;
 }
 
 .footerList {
@@ -117,7 +129,15 @@ footer nav a {
 }
 
 h5 {
-    padding: 10px;    
+    padding: 10px;
+    text-align: center;
+    color: white; 
+    opacity: 0.7;   
+}
+
+.credits {
+    color: white;
+    opacity: 0.7;
 }
 
 
@@ -125,26 +145,37 @@ h5 {
 /*.........Homepage.........*/
 
 .column {
-    padding: 0 10px;
+    padding: 0 12px;
 }
 
-/* Remove extra left and right margins, due to padding in columns */
 .row {margin: 0 -5px;}
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
-/* Style the counter cards */
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3); 
-  padding: 16px;
-  text-align: center;
+  padding: 8px;
+  text-align: left;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3); 
   background-color: #A3DDEA;
 }
+
+.viewbutton {
+    background-color: #001B46;
+    max-width: 80px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5%;
+    margin-top: 50px;
+    margin-right: 10px;
+    padding: 2px;
+    float: left;
+}
+
+.viewbutton > a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
 
 /*...........About..........*/
 
@@ -159,7 +190,6 @@ h5 {
 /*.............CV............*/
 
 .headersOnTopic {
-    background-color: blue;
     margin-bottom: 2px;
 
 }
@@ -187,12 +217,43 @@ label {
 
     /*....... genral input..............*/
     .moodPhoto {
-        border-bottom: 5px solid #386870;
+        border-bottom: 5px solid #386770;
     } 
 
+    .spacersInBetween {
+        height: 10px;
+        margin: 10px;
+    }
+
+    footer {
+        border-top: 8px solid #386770;
+        border-bottom: 20px solid #386770;
+    }
     /*...........Homepage...............*/
     .column {
         width: 100%;
+    }
+    .container {
+        display: flex;
+        padding: 5px;
+    }
+    .platforms {
+        height: 140px;
+        width: 170px;
+        float: right;
+    }
+    
+    .future {
+        height: 400px;
+    }
+
+    .futureText {
+        padding-top: 70%;
+        text-align: center;
+    }
+
+    .allRightsReserved {
+        margin-top: 10px;
     }
     /*............About.................*/
     
@@ -208,11 +269,24 @@ label {
     /*....... genral input..............*/
     .moodPhoto {
         border-bottom: 8px solid #386870;
-    } 
+    }
+    
+    footer {
+        border-top: 8px solid #386770;
+        border-bottom: 20px solid #386770;
+    }
 
     /*...........Homepage...............*/
     .column {
         width: 50%;
+    }
+    .platforms {
+        height: 140px;
+        width: 180px;
+    }
+    
+    .allRightsReserved {
+        margin-top: 10px;
     }
     /*............About.................*/
     
