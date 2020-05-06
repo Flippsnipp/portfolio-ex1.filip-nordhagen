@@ -20,7 +20,7 @@
           </a>
         </li>
         <li>
-          <a class="navLinks active" href="./about.html">
+          <a class="navLinks" href="./about.html">
             ABOUT ME
           </a>
         </li>
@@ -30,7 +30,7 @@
           </a>
         </li>
         <li>
-          <a class="navLinks" href="./contact.html">
+          <a class="navLinks active" href="./contact.html">
             CONTACT ME
           </a>
         </li>
@@ -42,45 +42,54 @@
       </h1>
     </div>
   </header>
-    <main>
+  <div class="photoIntro">
+    <img class="moodPhoto" src="./images/sunrise.jpg" alt="sunrise"/>
+  </div>
+  <main>
+    <div class="card">
       <div class="contactform">
-          <div class="container">
-            <form action="action_page.php">
-              <div class="userOptions">
-                <h3>
-                  Contact Description
-                </h3>
-                <p>
-                  Hi there, If yo want to get a hold of me for job-offers, projects, questions or just feedback in general.
-                  Write me a few words and I will get back to you.
-                </p>
-                <h4>
-                  User Options
-                </h4>
-                <label for="user-options">
-                </label>
-                <select id="userOptions" name="userOptions">
-                  <option value="job-offer">
-                    Job-Offer
-                  </option>
-                  <option value="projects">
-                    Projects
-                  </option>
-                  <option value="questions">
-                    Questions
-                  </option>
-                  <option value="feedback">
-                    Feedback on Page
-                  </option>
-                  <option value="other">
-                      Other
-                  </option>
-                </select>
-              </div><!--closes "userOptions"-->
+        <div class="container">
+          <form action="action_page.php">
+            <div class="userOptions">
+              <h3>
+                Contact Description
+              </h3>
+              <p>
+                Hi there, If yo want to get a hold of me for job-offers, projects, questions or just feedback in general.
+                Write me a few words and I will get back to you.
+              </p>
+              <div class="spacersInBetween">
+              </div>
+              <h4>
+                User Options
+              </h4>
+              <label for="user-options">
+              </label>
+              <select id="userOptions" name="userOptions">
+                <option value="job-offer">
+                  Job-Offer
+                </option>
+                <option value="projects">
+                  Projects
+                </option>
+                <option value="questions">
+                  Questions
+                </option>
+                <option value="feedback">
+                  Feedback on Page
+                </option>
+                <option value="other">
+                    Other
+                </option>
+              </select>
+            </div><!--closes "userOptions"-->
+            <div class="spacersInBetween">
+            </div>
+            <h3>
+              Contact information
+            </h3>
+            <div class="containerContactInformation">
               <div class="nameandemail">
-                <h3>
-                  Contact information
-                </h3>
                 <div class="firstName">
                   <label for="fName">
                     First Name
@@ -100,78 +109,88 @@
                   <input type="text" id="email" name="email" placeholder="Your e-mail address...">
                 </div><!--closes "email"-->
               </div><!--closes "nameandemail"-->
+            </div>
+            <div class="spacersInBetween">
+            </div>
+            <h3>
+              Write me something...
+            </h3>
+            <div class="containerTextarea">
               <div class="textarea">
-                <h3>
-                  Subject
-                </h3>
-                <label for="subject">
-                </label>
-                <p>
-                  Write me a few lines and I will get back to you within 2 working days.
-                </p>
-                <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px">
-                </textarea>
+                <div class="subject">
+                  <p>
+                    Write me a few lines and I will get back to you within 2 working days.
+                  </p>
+                </div>
+                <div class="theMessage">
+                  <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px">
+                  </textarea>
+                  <div class="submit">
+                    <input type="submit" value="Submit" />  
+                  </div>
+                </div>
               </div><!--closes "textarea"-->
-              <input type="submit" value="Submit" />
-            </form><!--closes "action_page.php"-->
-          </div><!--closes "container"-->
+            </div>
+          </form><!--closes "action_page.php"-->
+        </div><!--closes "container"-->
       </div><!--closes "contactform"--> 
-    </main> 
-    <footer>
-      <div class="allRightsReserved">
-        <p>
-            All rights reserved Filip Nordhagen &copy
-        </p>
-      </div>
-      <div class="spacers">
-        <img src="./images/spacers.svg" alt="spacers">
-      </div>
-      <nav class="navigationFooter">
-          <ul class="footerList">
-            <li>
-              <a class="navLinks active" href="./index.html">
-                HOME
-              </a>
-            </li>
-            <li>
-              <a class="navLinks" href="./about.html">
-                ABOUT ME
-              </a>
-            </li>
-            <li>
-              <a class="navLinks" href="./cv.html">
-                MY CURRICULUM VITAE
-              </a>
-            </li>
-            <li>
-              <a class="navLinks" href="./contact.html">
-                CONTACT ME
-              </a>
-            </li>
-          </ul>
-      </nav>
-      <div class="spacers">
-        <img src="./images/spacers.svg" alt="spacers">
-      </div>
-      <div class="socialicons">
-        <h5>
-          Social Media
-        </h5>
-        <a href="https://www.facebook.com">Facebook</a> 
-        <a href="https://www.instagram.com/flippsnipp/">Instagram</a>
-      </div>
-      <div class="spacers">
-        <img src="./images/spacers.svg" alt="spacers">
-      </div>
-      <div class="credits">
-        <h5>
-          creditlist
-        </h5>
-        <p>
-          Photo by Francesco Ungaro from Pexels (moodphoto)
-        </p>
-      </div>
-    </footer>
-    <script src="./js/script.js"></script>
+    </div>
+  </main> 
+  <footer>
+    <div class="allRightsReserved">
+      <p>
+          All rights reserved Filip Nordhagen &copy
+      </p>
+    </div>
+    <div class="spacers">
+      <img src="./images/spacers.svg" alt="spacers">
+    </div>
+    <nav class="navigationFooter">
+        <ul class="footerList">
+          <li>
+            <a class="navLinks" href="./index.html">
+              HOME
+            </a>
+          </li>
+          <li>
+            <a class="navLinks" href="./about.html">
+              ABOUT ME
+            </a>
+          </li>
+          <li>
+            <a class="navLinks" href="./cv.html">
+              MY CURRICULUM VITAE
+            </a>
+          </li>
+          <li>
+            <a class="navLinks active" href="./contact.html">
+              CONTACT ME
+            </a>
+          </li>
+        </ul>
+    </nav>
+    <div class="spacers">
+      <img src="./images/spacers.svg" alt="spacers">
+    </div>
+    <div class="socialicons">
+      <h5>
+        Social Media
+      </h5>
+      <a href="https://www.facebook.com">Facebook</a> 
+      <a href="https://www.instagram.com/flippsnipp/">Instagram</a>
+    </div>
+    <div class="spacers">
+      <img src="./images/spacers.svg" alt="spacers">
+    </div>
+    <div class="credits">
+      <h5>
+        creditlist
+      </h5>
+      <p>
+        Photo by life-of-pix from Pexels (sunrise)
+      </p>
+    </div>
+  </footer>
+  <script src="./js/script.js"></script>
 </body>
 </html>

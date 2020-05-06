@@ -20,12 +20,12 @@
               </a>
             </li>
             <li>
-              <a class="navLinks active" href="./about.html">
+              <a class="navLinks" href="./about.html">
                 ABOUT ME
               </a>
             </li>
             <li>
-              <a class="navLinks" href="./cv.html">
+              <a class="navLinks active" href="./cv.html">
                 MY CV
               </a>
             </li>
@@ -41,13 +41,16 @@
             My Curriculum Vitae!
           </h1>
         </div>
-      </header>
+    </header>
+    <div class="photoIntro">
+        <img class="moodPhoto" src="./images/docksunset.jpg" alt="Dock Sunset"/>
+    </div>
     <main>
         <div class="card">
             <div class="education">
                 <div class="headersOnTopic">
                     <img class="icons" src="./images/diploma.svg" alt="graduated"/> 
-                    <h2> 
+                    <h2 class="cvHeaders"> 
                         Education:
                     </h2>
                 </div>
@@ -55,57 +58,78 @@
                     <h3>
                         Frontend Development 1st year - Noroff School of technology and digital media (Bergen, Norway)
                     </h3>
-                    <label for="monthYearStart" class="dates">
-                        Month/Year Started
-                    </label>
-                    <p class="monthStart">
-                        August
-                    </p>
-                    <p class="yearStart">
-                        2019
-                    </p>
-                    <label for="monthYearFinished" class="dates">
-                        Month/Year Finished
-                    </label>
-                    <p class="monthFinished">
-                        pending
-                    </p>
-                    <p class="yearFinished">
-                        pending
-                    </p>
-                    <p class="description"></p>
+                    <div class="containerDates">
+                        <div class="started">
+                            <label for="monthYearStart" class="dates">
+                                Month/Year Started
+                            </label>
+                            <p class="monthStart">
+                                August
+                            </p>
+                            <p class="yearStart">
+                                2019
+                            </p>
+                        </div>
+                        <div class="finished">
+                            <label for="monthYearFinished" class="dates">
+                                Month/Year Finished
+                            </label>
+                            <p class="monthFinished">
+                                pending
+                            </p>
+                            <p class="yearFinished">
+                                pending
+                            </p>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p class="descriptionText"></p>
+                    </div>
+                </div>
+                <div class="spacersInBetween">
+        
                 </div>
                 <div class="lessonsLearned">
                     <h3>
                         General Studies  3 years - Fyllingsdalen vgs (Bergen, Norway)
                     </h3>
-                    <label for="monthYearStart" class="dates">
-                        Month/Year Started
-                    </label>
-                    <p class="monthStart">
-                        August
-                    </p>
-                    <p class="yearStart">
-                        1998
-                    </p>
-                    <label for="monthYearFinished" class="dates">
-                        Month/Year Finished
-                    </label>
-                    <p class="monthFinished">
-                        June
-                    </p>
-                    <p class="yearFinished">
-                        2001
-                    </p>
-                    <p class="description"></p>
+                    <div class="containerDates">
+                        <div class="started">
+                            <label for="monthYearStart" class="dates">
+                                Month/Year Started
+                            </label>
+                            <p class="monthStart">
+                                August
+                            </p>
+                            <p class="yearStart">
+                                1998
+                            </p>
+                        </div>
+                        <div class="finished">
+                            <label for="monthYearFinished" class="dates">
+                                Month/Year Finished
+                            </label>
+                            <p class="monthFinished">
+                                June
+                            </p>
+                            <p class="yearFinished">
+                                2001
+                            </p>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p class="descriptionText"></p>
+                    </div>
                 </div>
             </div><!--closes "education"-->
+        </div>
+        <div class="spacersInBetween">
         </div>
         <div class="card">
             <div class="workExperiences">
                 <div class="headersOnTopic">
                     <img class="icons" src="./images/team.svg" alt="team">
-                    <h2>
+                    <h2 class="cvHeaders">
                         Work Experiences:
                     </h2> 
                 </div>
@@ -114,293 +138,405 @@
                         <h3>
                             Furniture installer / Worksite leader - Bergen Bemanning AS (Total Reform AS)
                         </h3>
-                        <label for="monthYearStart" class="dates">
-                            Month/Year Started
-                        </label>
-                        <p class="monthStart">
-                            November
-                        </p>
-                        <p class="yearStart">
-                            2017
-                        </p>
-                        <label for="monthYearFinished" class="dates">
-                            Month/Year Finished
-                        </label>
-                        <p class="monthFinished">
-                            June
-                        </p>
-                        <p class="yearFinished">
-                            2018
-                        </p>
-                        <p class="description"></p>
+                        <div class="containerDates">
+                            <div class="started">
+                                <label for="monthYearStart" class="dates">
+                                    Month/Year Started
+                                </label>
+                                <p class="monthStart">
+                                    November
+                                </p>
+                                <p class="yearStart">
+                                    2017
+                                </p>
+                            </div>
+                            <div class="finished">
+                                <label for="monthYearFinished" class="dates">
+                                    Month/Year Finished
+                                </label>
+                                <p class="monthFinished">
+                                    June
+                                </p>
+                                <p class="yearFinished">
+                                    2018
+                                </p>   
+                            </div>
+                        </div>
+                        <div class="description">
+                            <p class="descriptionText"></p>
+                        </div>
                     </div>
+                    <div class="spacersInBetween">
+                    </div>            
                     <div class="work">
                         <h3>
                             Furniture installer / Worksite leader - Bemann AS (Relokator AS)
                         </h3>
-                        <label for="monthYearStart" class="dates">
-                            Month/Year Started
-                        </label>
-                        <p class="monthStart">
-                            July
-                        </p>
-                        <p class="yearStart">
-                            2017
-                        </p>
-                        <label for="monthYearFinished" class="dates">
-                            Month/Year Finished
-                        </label>
-                        <p class="monthFinished">
-                            October
-                        </p>
-                        <p class="yearFinished">
-                            2017
-                        </p>
-                        <p class="description"></p>
+                        <div class="containerDates">
+                            <div class="started">
+                                <label for="monthYearStart" class="dates">
+                                    Month/Year Started
+                                </label>
+                                <p class="monthStart">
+                                    July
+                                </p>
+                                <p class="yearStart">
+                                    2017
+                                </p>
+                            </div>
+                            <div class="finished">
+                                <label for="monthYearFinished" class="dates">
+                                    Month/Year Finished
+                                </label>
+                                <p class="monthFinished">
+                                    October
+                                </p>
+                                <p class="yearFinished">
+                                    2017
+                                </p>          
+                            </div>
+                        </div>
+                        <div class="description">
+                            <p class="descriptionText"></p>
+                        </div>
                     </div>
+                    <div class="spacersInBetween">
+                    </div>            
                     <div class="work">
                         <h3>
                           Moving coworker / Furniture installer / Worksite leader - Bergen Bemanning AS (Relokator AS)
                         </h3>
-                        <label for="monthYearStart" class="dates">
-                            Month/Year Started
-                        </label>
-                        <p class="monthStart">
-                            September
-                        </p>
-                        <p class="yearStart">
-                            2016
-                        </p>
-                        <label for="monthYearFinished" class="dates">
-                            Month/Year Finished
-                        </label>
-                        <p class="monthFinished">
-                            June
-                        </p>
-                        <p class="yearFinished">
-                            2017
-                        </p>
-                        <p class="description"></p>
+                        <div class="containerDates">
+                            <div class="started">
+                                <label for="monthYearStart" class="dates">
+                                    Month/Year Started
+                                </label>
+                                <p class="monthStart">
+                                    September
+                                </p>
+                                <p class="yearStart">
+                                    2016
+                                </p>
+                            </div>
+                            <div class="finished">
+                                <label for="monthYearFinished" class="dates">
+                                    Month/Year Finished
+                                </label>
+                                <p class="monthFinished">
+                                    June
+                                </p>
+                                <p class="yearFinished">
+                                    2017
+                                </p>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <p class="descriptionText"></p>
+                        </div>
                     </div>
                 </div>
+                <div class="spacersInBetween">
+                </div>        
                 <div class="oilBusiness">
                     <div class="work">
                         <h3>
                           Document Controller / Senior Document Controller - Aibel AS
                         </h3>
-                        <label for="monthYearStart" class="dates">
-                            Month/Year Started
-                        </label>
-                        <p class="monthStart">
-                            June
-                        </p>
-                        <p class="yearStart">
-                            2012
-                        </p>
-                        <label for="monthYearFinished" class="dates">
-                            Month/Year Finished
-                        </label>
-                        <p class="monthFinished">
-                            December
-                        </p>
-                        <p class="yearFinished">
-                            2014
-                        </p>
-                        <p class="description"></p>
+                        <div class="containerDates">
+                            <div class="started">
+                                <label for="monthYearStart" class="dates">
+                                    Month/Year Started
+                                </label>
+                                <p class="monthStart">
+                                    June
+                                </p>
+                                <p class="yearStart">
+                                    2012
+                                </p>
+                            </div>
+                            <div class="finished">
+                                <label for="monthYearFinished" class="dates">
+                                    Month/Year Finished
+                                </label>
+                                <p class="monthFinished">
+                                    December
+                                </p>
+                                <p class="yearFinished">
+                                    2014
+                                </p>        
+                            </div>
+                        </div>
+                        <div class="description">
+                            <p class="descriptionText"></p>
+                        </div>
                     </div>
+                    <div class="spacersInBetween">
+                    </div>            
                     <div class="work">
                         <h3>
                           Document Controller - Manpower AS (Aibel AS)
                         </h3>
-                        <label for="monthYearStart" class="dates">
-                            Month/Year Started
-                        </label>
-                        <p class="monthStart">
-                            September
-                        </p>
-                        <p class="yearStart">
-                            2011
-                        </p>
-                        <label for="monthYearFinished" class="dates">
-                            Month/Year Finished
-                        </label>
-                        <p class="monthFinished">
-                            May
-                        </p>
-                        <p class="yearFinished">
-                            2012
-                        </p>
-                        <p class="description"></p>
+                        <div class="containerDates">
+                            <div class="started">
+                                <label for="monthYearStart" class="dates">
+                                    Month/Year Started
+                                </label>
+                                <p class="monthStart">
+                                    September
+                                </p>
+                                <p class="yearStart">
+                                    2011
+                                </p>
+                            </div>
+                            <div class="finished">
+                                <label for="monthYearFinished" class="dates">
+                                    Month/Year Finished
+                                </label>
+                                <p class="monthFinished">
+                                    May
+                                </p>
+                                <p class="yearFinished">
+                                    2012
+                                </p>     
+                            </div>
+                        </div>
+                        <div class="description">
+                            <p class="descriptionText"></p>
+                        </div>
                     </div>
+                    <div class="spacersInBetween">
+                    </div>            
                     <div class="work">
                         <h3>
                           Document Controller Trainee / Document Controller - Nordhagen Projects AS (Tranceocean AS)
                         </h3>
-                        <label for="monthYearStart" class="dates">
-                            Month/Year Started
-                        </label>
-                        <p class="monthStart">
-                            October
-                        </p>
-                        <p class="yearStart">
-                            2008
-                        </p>
-                        <label for="monthYearFinished" class="dates">
-                            Month/Year Finished
-                        </label>
-                        <p class="monthFinished">
-                            March
-                        </p>
-                        <p class="yearFinished">
-                            2010
-                        </p>
-                        <p class="description"></p>
+                        <div class="containerDates">
+                            <div class="started">
+                                <label for="monthYearStart" class="dates">
+                                    Month/Year Started
+                                </label>
+                                <p class="monthStart">
+                                    October
+                                </p>
+                                <p class="yearStart">
+                                    2008
+                                </p>
+                            </div>
+                            <div class="finished">
+                                <label for="monthYearFinished" class="dates">
+                                    Month/Year Finished
+                                </label>
+                                <p class="monthFinished">
+                                    March
+                                </p>
+                                <p class="yearFinished">
+                                    2010
+                                </p>    
+                            </div>
+                        </div>
+                        <div class="description">
+                            <p class="descriptionText"></p>
+                        </div>
                     </div>
                 </div>
+                <div class="spacersInBetween">
+                </div>        
                 <div class="KitchenDuty">
                     <div class="work">
                         <h3>
                             Kitchen-assistant - Vann Etaten Bergen
                         </h3>
-                        <label for="monthYearStart" class="dates">
-                            Month/Year Started
-                        </label>
-                        <p class="monthStart">
-                            August
-                        </p>
-                        <p class="yearStart">
-                            2008
-                        </p>
-                        <label for="monthYearFinished" class="dates">
-                            Month/Year Finished
-                        </label>
-                        <p class="monthFinished">
-                            September
-                        </p>
-                        <p class="yearFinished">
-                            2008
-                        </p>
-                        <p class="description"></p>
+                        <div class="containerDates">
+                            <div class="started">
+                                <label for="monthYearStart" class="dates">
+                                    Month/Year Started
+                                </label>
+                                <p class="monthStart">
+                                    August
+                                </p>
+                                <p class="yearStart">
+                                    2008
+                                </p>
+                            </div>
+                            <div class="finished">
+                                <label for="monthYearFinished" class="dates">
+                                    Month/Year Finished
+                                </label>
+                                <p class="monthFinished">
+                                    September
+                                </p>
+                                <p class="yearFinished">
+                                    2008
+                                </p>                       
+                            </div>
+                        </div>
+                        <div class="description">
+                            <p class="descriptionText"></p>
+                        </div>
                     </div> 
                 </div>
+                <div class="spacersInBetween">
+                </div>        
                 <div class="StorageDuty">
                     <div class="work">
                         <h3>
                             Storage worker - Bama Dagligvare AS
                         </h3>
-                        <label for="monthYearStart" class="dates">
-                            Month/Year Started
-                        </label>
-                        <p class="monthStart">
-                            May
-                        </p>
-                        <p class="yearStart">
-                            2006
-                        </p>
-                        <label for="monthYearFinished" class="dates">
-                            Month/Year Finished
-                        </label>
-                        <p class="monthFinished">
-                            July
-                        </p>
-                        <p class="yearFinished">
-                            2008
-                        </p>
-                        <p class="description"></p>
+                        <div class="containerDates">
+                            <div class="started">
+                                <label for="monthYearStart" class="dates">
+                                    Month/Year Started
+                                </label>
+                                <p class="monthStart">
+                                    May
+                                </p>
+                                <p class="yearStart">
+                                    2006
+                                </p>
+                            </div>
+                            <div class="finished">
+                                <label for="monthYearFinished" class="dates">
+                                    Month/Year Finished
+                                </label>
+                                <p class="monthFinished">
+                                    July
+                                </p>
+                                <p class="yearFinished">
+                                    2008
+                                </p>            
+                            </div>
+                        </div>
+                        <div class="description">
+                            <p class="descriptionText"></p>
+                        </div>
                     </div>     
                 </div>
+                <div class="spacersInBetween">
+                </div>        
                 <div class="KitchenDuty">
                     <div class="work">
                         <h3>
                             Kitchen-assistant - Fjordline AS
                         </h3>
-                        <label for="monthYearStart" class="dates">
-                            Month/Year Started
-                        </label>
-                        <p class="monthStart">
-                            September
-                        </p>
-                        <p class="yearStart">
-                            2004
-                        </p>
-                        <label for="monthYearFinished" class="dates">
-                            Month/Year Finished
-                        </label>
-                        <p class="monthFinished">
-                            October
-                        </p>
-                        <p class="yearFinished">
-                            2005
-                        </p>
-                        <label for="safetyFunction" class="dates">
-                            Safety Function Onboard
-                        </label>
-                        <p class="safetyFunctionOnBoard">
-                            Handling Passengers, Smoke Diver
-                        </p>
-                        <p class="description"></p>
+                        <div class="containerDates">
+                            <div class="started">
+                                <label for="monthYearStart" class="dates">
+                                    Month/Year Started
+                                </label>
+                                <p class="monthStart">
+                                    September
+                                </p>
+                                <p class="yearStart">
+                                    2004
+                                </p>
+                            </div>
+                            <div class="finished">
+                                <label for="monthYearFinished" class="dates">
+                                    Month/Year Finished
+                                </label>
+                                <p class="monthFinished">
+                                    October
+                                </p>
+                                <p class="yearFinished">
+                                    2005
+                                </p>
+                            </div>
+                            <div class="safetyFunction">
+                                <label for="safetyFunction" class="dates">
+                                    Safety Function Onboard
+                                </label>
+                                <p class="safetyFunctionOnBoard">
+                                    Handling Passengers, Smoke Diver
+                                </p>
+                            </div>
+                        </div>
+                        <div class="decription">
+                            <p class="descriptionText"></p>
+                        </div>
                     </div>
+                    <div class="spacersInBetween">
+                    </div>            
                     <div class="work">
                         <h3>
                             Kitchen-assistant - Augustin Hotell AS
                         </h3>
-                        <label for="monthYearStart" class="dates">
-                            Month/Year Started
-                        </label>
-                        <p class="monthStart">
-                            July
-                        </p>
-                        <p class="yearStart">
-                            2003
-                        </p>
-                        <label for="monthYearFinished" class="dates">
-                            Month/Year Finished
-                        </label>
-                        <p class="monthFinished">
-                            March
-                        </p>
-                        <p class="yearFinished">
-                            2004
-                        </p>
-                        <p class="description"></p>
+                        <div class="containerDates">
+                            <div class="started">
+                                <label for="monthYearStart" class="dates">
+                                    Month/Year Started
+                                </label>
+                                <p class="monthStart">
+                                    July
+                                </p>
+                                <p class="yearStart">
+                                    2003
+                                </p>
+                            </div>
+                            <div class="finished">
+                                <label for="monthYearFinished" class="dates">
+                                    Month/Year Finished
+                                </label>
+                                <p class="monthFinished">
+                                    March
+                                </p>
+                                <p class="yearFinished">
+                                    2004
+                                </p>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <p class="descriptionText"></p>
+                        </div>
                     </div>  
                 </div>
+                <div class="spacersInBetween">
+                </div>        
                 <div class="mandatoryDuty">
                     <div class="oneYearMandatory">
                         <h3>
-                            Recruit Period - Madla KNM Harald Hårfagre (Stavanger), Vatneleiren (Sandnes)
+                            Recruit Period - Madla KNM Harald Hårfagre, Vatneleiren
                         </h3>
                         <h3>
-                            Main Service - Håkonsvern (Bergen)
+                            Main Service - Håkonsvern
                         </h3>
-                        <label for="monthYearStart" class="dates">
-                            Month/Year Started
-                        </label>
-                        <p class="monthStart">
-                            September
-                        </p>
-                        <p class="yearStart">
-                            2001
-                        </p>
-                        <label for="monthYearFinished" class="dates">
-                            Month/Year Finished
-                        </label>
-                        <p class="monthFinished">
-                            September
-                        </p>
-                        <p class="yearFinished">
-                            2002
-                        </p>
-                        <p class="description"></p>
+                        <div class="containerDates">
+                            <div class="started">
+                                <label for="monthYearStart" class="dates">
+                                    Month/Year Started
+                                </label>
+                                <p class="monthStart">
+                                    September
+                                </p>
+                                <p class="yearStart">
+                                    2001
+                                </p>
+                            </div>
+                            <div class="finished">
+                                <label for="monthYearFinished" class="dates">
+                                    Month/Year Finished
+                                </label>
+                                <p class="monthFinished">
+                                    September
+                                </p>
+                                <p class="yearFinished">
+                                    2002
+                                </p>               
+                            </div>
+                        </div>
+                        <div class="description">
+                            <p class="descriptionText"></p>
+                        </div>
                     </div>  
                 </div>
             </div><!--closes "workExperiences"-->
+        </div>
+        <div class="spacersInBetween">
         </div>
         <div class="card">
             <div class="courses">
                 <div class="headersOnTopic">
                     <img class="icons" src="./images/class.svg" alt="class">
-                    <h2>
+                    <h2 class="cvHeaders">
                         Courses:
                     </h2> 
                 </div>
@@ -409,106 +545,154 @@
                         <h3>
                             Tekniks Dokumentkontroller - Folkeuniversitet
                         </h3>
-                        <label for="monthYearStart" class="dates">
-                            Month/Year Started
-                        </label>
-                        <p class="monthStart">
-                            January
-                        </p>
-                        <p class="yearStart">
-                            2009
-                        </p>
-                        <label for="duration" class="dates">
-                            Duration 
-                        </label>
-                        <p class="duration">
-                            28 hours
-                        </p>
-                        <p class="description"></p>
+                        <div class="containerDates">
+                            <div class="started">
+                                <label for="monthYearStart" class="dates">
+                                    Month/Year Started
+                                </label>
+                                <p class="monthStart">
+                                    January
+                                </p>
+                                <p class="yearStart">
+                                    2009
+                                </p>
+                            </div>
+                            <div class="duration">
+                                <label for="duration" class="dates">
+                                    Duration 
+                                </label>
+                                <p>
+                                    28 hours
+                                </p> 
+                            </div>
+                        </div>
+                        <div class="description">
+                            <p class="descriptionText"></p>
+                        </div>
                     </div>
+                    <div class="spacersInBetween">
+                    </div>            
                     <div class="course">
                         <h3>
                             VK1 Drilling and Well technology - Nor Offshore AS
                         </h3>
-                        <label for="monthYearStart" class="dates">
-                            Month/Year Started
-                        </label>
-                        <p class="monthStart">
-                            September
-                        </p>
-                        <p class="yearStart">
-                            2006
-                        </p>
-                        <label for="duration" class="dates">
-                            Duration 
-                        </label>
-                        <p class="duration">
-                            420 hours
-                        </p>
-                        <p class="description"></p>
+                        <div class="containerDates">
+                            <div class="started">
+                                <label for="monthYearStart" class="dates">
+                                    Month/Year Started
+                                </label>
+                                <p class="monthStart">
+                                    September
+                                </p>
+                                <p class="yearStart">
+                                    2006
+                                </p>
+                            </div>
+                            <div class="duration">
+                                <label for="duration" class="dates">
+                                    Duration 
+                                </label>
+                                <p>
+                                    420 hours
+                                </p>         
+                            </div>
+                        </div>
+                        <div class="description">
+                            <p class="descriptionText"></p>
+                        </div>
                     </div>
+                    <div class="spacersInBetween">
+                    </div>            
                     <div class="course">
                         <h3>
                             Safety Course STCW-95 (Expired) - Nutec beredskap og kriseledelse AS
                         </h3>
-                        <label for="monthYearStart" class="dates">
-                            Month/Year Started
-                        </label>
-                        <p class="monthStart"
-                        >May
-                        </p>
-                        <p class="yearStart">
-                            2005
-                        </p>
-                        <label for="duration" class="dates">
-                            Duration 
-                        </label>
-                        <p class="duration">
-                            60 hours
-                        </p>
-                        <p class="description"></p>
+                        <div class="containerDates">
+                            <div class="started">
+                                <label for="monthYearStart" class="dates">
+                                    Month/Year Started
+                                </label>
+                                <p class="monthStart"
+                                >May
+                                </p>
+                                <p class="yearStart">
+                                    2005
+                                </p>
+                            </div>
+                            <div class="duration">
+                                <label for="duration" class="dates">
+                                    Duration 
+                                </label>
+                                <p>
+                                    60 hours
+                                </p>                             
+                            </div>
+                        </div>
+                        <div class="description">
+                            <p class="descriptionText"></p>
+                        </div>
                     </div>
+                    <div class="spacersInBetween">
+                    </div>            
                     <div class="course">
                         <h3>
                            Passanger Handlling Safety Course - MS Fjord Norway
                         </h3>
-                        <label for="monthYearStart" class="dates">
-                            Month/Year Started
-                        </label>
-                        <p class="monthStart">
-                            September
-                        </p>
-                        <p class="yearStart">
-                            2004
-                        </p>
-                        <label for="duration" class="dates">
-                            Duration 
-                        </label>
-                        <p class="duration">
-                            8 hours
-                        </p>
-                        <p class="description"></p>
+                        <div class="containerDates">
+                            <div class="started">
+                                <label for="monthYearStart" class="dates">
+                                    Month/Year Started
+                                </label>
+                                <p class="monthStart">
+                                    September
+                                </p>
+                                <p class="yearStart">
+                                    2004
+                                </p>
+                            </div>
+                            <div class="duration">
+                                <label for="duration" class="dates">
+                                    Duration 
+                                </label>
+                                <p>
+                                    8 hours
+                                </p>                  
+                            </div>
+                        </div>
+                        <div class="description">
+                            <p class="descriptionTexy"></p>
+                        </div>
                     </div>
+                    <div class="spacersInBetween">
+                    </div>            
                     <div class="course">
                         <h3>
                            Instructor Training "Goal-driven collaboration and communication" - KNM Harald Hårfagre
                         </h3>
-                        <label for="monthYearStart" class="dates">
-                            Month/Year Started
-                        </label>
-                        <p class="monthStart">
-                            November
-                        </p>
-                        <p class="yearStart">
-                            2001
-                        </p>
-                        <label for="duration" class="dates">
-                            Duration 
-                        </label>
-                        <p class="duration">
-                            20 hours
-                        </p>
-                        <p class="description"></p>
+                        <div class="containerDates">
+                            <div class="started">
+                                <label for="monthYearStart" class="dates">
+                                    Month/Year Started
+                                </label>
+                                <p class="monthStart">
+                                    November
+                                </p>
+                                <p class="yearStart">
+                                    2001
+                                </p>        
+                            </div>
+                            <div class="duration">
+                                <label for="duration" class="dates">
+                                    Duration 
+                                </label>
+                                <p>
+                                    20 hours
+                                </p>                         
+                            </div>
+                        </div>
+                        <div class="description">
+                            <p class="descriptionText"></p>
+                        </div>
                     </div>                
                 </div>
             </div><!--closes "courses"-->
@@ -526,7 +710,7 @@
         <nav class="navigationFooter">
             <ul class="footerList">
                 <li>
-                <a class="navLinks active" href="./index.html">
+                <a class="navLinks" href="./index.html">
                     HOME
                 </a>
                 </li>
@@ -536,7 +720,7 @@
                 </a>
                 </li>
                 <li>
-                <a class="navLinks" href="./cv.html">
+                <a class="navLinks active" href="./cv.html">
                     MY CURRICULUM VITAE
                 </a>
                 </li>
@@ -565,8 +749,9 @@
             creditlist
             </h5>
             <p class= "dueCredits">
-            Photo by Andrea Piacquadio from Pexels (education)
-            Photo by Zukiman Mohamad from Pexels (platform)
+                Photo by Heiner from Pexels - (docksunset)
+                Photo by Andrea Piacquadio from Pexels (education)
+                Photo by Zukiman Mohamad from Pexels (platform)
             </p>
             <div class= "iconsDueCredit">
             Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
