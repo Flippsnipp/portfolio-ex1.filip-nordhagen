@@ -195,13 +195,12 @@ h5 {
 /*...........About..........*/
 
 .theThinkerAndMe {
-    height: 100px;
-    width: 100px;
     float: left;
 }
 
 .shortSummarize > li {
     display: block;
+    text-align: right;
 }
 
 
@@ -210,9 +209,6 @@ h5 {
 
 .cvHeaders {
     color: #000015;
-    font-size: 25px;
-    padding: 20px;
-
 }
 
 .headersOnTopic {
@@ -381,8 +377,32 @@ input[type=submit]:hover {
         margin-top: 10px;
     }
     /*............About.................*/
+
+    .card {
+        padding: 22px;
+        font-size: 20px;
+    }
+
+    .theThinkerAndMe {
+        height: 110px;
+        width: 110px;
+        margin-left: 15px;
+        margin-right: 12px;
+    }
+
+    .shortSummarize > li {
+        font-size: 25px;
+    }
+
+
     
     /*..............CV..................*/
+
+    .cvHeaders {
+        font-size: 25px;
+        padding: 20px;
+    
+    }
 
 
     .lessonsLearned {
@@ -477,8 +497,37 @@ input[type=submit]:hover {
         margin-top: 10px;
     }
     /*............About.................*/
+
+    .theThinkerAndMe {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+    }
+
+    .card {
+        padding: 22px;
+        font-size: 25px;
+    }
+
+    .shortSummarize > li {
+        font-size: 35px;
+    }
     
     /*..............CV..................*/
+
+    .cvHeaders {
+        font-size: 25px;
+        padding: 20px;
+    
+    }
+
+    .icons {
+        height: 80px;
+        width: 80px;
+        float: right;
+        margin-bottom: 20px;
+        margin-right: 50px;
+    }
 
     .lessonsLearned {
         display: inline-block;
