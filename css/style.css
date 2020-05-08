@@ -17,7 +17,7 @@ body {
 
 h1 {
     font-family: 'Roboto Condensed', sans-serif;
-    color: white;
+    color: #fffff8;
 }
 
 .headerText {
@@ -28,9 +28,7 @@ h1 {
 }
 
 h2 {
-    font-size: 18px;
-    text-align: center;
-    color: white;
+    color: #fffff8;
 }
 
 h3 {
@@ -42,8 +40,11 @@ header {
     background-color: #386870;
     margin-right: auto;
     margin-left: auto;
-    min-height: 150px;
+    min-height: 170px;
 }
+
+
+
 
 .logo {
     float: left;
@@ -54,7 +55,7 @@ header {
 }
 header nav a {
     text-decoration: none;
-    color: white;
+    color: #fffff8;
     margin-right: 10px;
 }
 
@@ -75,7 +76,7 @@ ul {
 }
 
 .active {
-    text-decoration: underline white;
+    text-decoration: underline #fffff8;
 }
 
 .headerList {
@@ -98,25 +99,33 @@ main {
     padding: 2em;
 }
 
+.card {
+    padding: 25px;
+    text-align: left;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3); 
+    background-color: #A3DDEA;
+    margin-bottom: 30px;
+  }
+
 .spacersInBetween {
     background-color: #386770;
 }
 
 footer {
     background-size: cover;
-    background-color: #001B52;
+    background-color: #001B46;
     text-align: center;
     width: 100%;
 }
 
 .allRightsReserved {
-    color: white;
+    color: #fffff8;
     text-align: center;
 }
 
 footer nav a {
     text-decoration: none;
-    color: white;
+    color: #fffff8;
 }
 
 footer nav ul> li {
@@ -131,12 +140,12 @@ footer nav ul> li {
 
 h5 {
     padding: 10px;
-    color: white; 
+    color: #fffff8; 
     opacity: 0.7;   
 }
 
 .credits {
-    color: white;
+    color: #fffff8;
     opacity: 0.7;
 }
 
@@ -145,7 +154,7 @@ h5 {
 /*.........Homepage.........*/
 
 .headerHome {
-    height: 280px;
+    height: 320px;
 }
 
 .column {
@@ -158,20 +167,13 @@ h5 {
     display: flex;
     justify-content: row;
     padding: 2px;
-    margin-top: 5px;
+    margin-top: 40px;
     margin-left: 0;
     margin-right: 0;
 }
 
-.card {
-  padding: 5px;
-  text-align: left;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3); 
-  background-color: #A3DDEA;
-}
-
 .viewbutton {
-    background-color: #001B46;
+    background-color: #001B52;
     max-width: 80px;
     height: 50px;
     text-align: center;
@@ -184,7 +186,7 @@ h5 {
 }
 
 .viewbutton > a {
-    color: white;
+    color: #fffff8;
     text-align: center;
     text-decoration: none;
 }
@@ -238,6 +240,11 @@ h5 {
 
 }
 
+.spacersInBetweenCV {
+    background-color: #386770;
+
+}
+
 .safetyFunction {
     margin-left: 20px;
 }
@@ -246,14 +253,10 @@ h5 {
     margin-left: 20px;
 }
 
-.lessonsLearned {
-    margin-top: 0;
-    margin-right: 20px;
-}
 
 label {
     background-color: #386770;
-    color: white;
+    color: #fffff8;
     padding: 2px;
 }
 /*.........Contact............*/
@@ -262,6 +265,23 @@ form {
     margin: 0 auto;
 }
 
+.userOptions > label {
+    color: #fffff8;
+    font-size: 14px;
+    display: block;
+    border: 1.5px solid #386770;
+    margin-right: 200px;
+}
+
+.userOptions > select {
+    color: #000015;
+    font-size: 14px;
+    padding: 10px;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border: 1.5px solid #386770;
+}
 
 input[type="text"] {
     color: #000015;
@@ -280,7 +300,6 @@ input[type="text"] {
 textarea {
     width: 75%;
     padding: 10px;
-    border: 1px solid #fffff8;
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
@@ -311,6 +330,15 @@ input[type=submit]:hover {
 
     /*....... genral input..............*/
 
+    h1 {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
 
     .moodPhoto {
         border-bottom: 10px solid #386770;
@@ -322,7 +350,7 @@ input[type=submit]:hover {
     }
 
     h3 {
-        text-align: center;
+        text-align: left;
     }
 
     footer {
@@ -356,6 +384,22 @@ input[type=submit]:hover {
     
     /*..............CV..................*/
 
+
+    .lessonsLearned {
+        margin-top: 0;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .spacersInBetweenCV {
+        height: 8px;
+        width: 60%;
+        display: inline-flex;
+        margin-left: 20%;
+    }
+
+
+    
+
     /*............Contact...............*/
 
     .userOptions > p {
@@ -372,7 +416,7 @@ input[type=submit]:hover {
     }
 
     .subject > p {
-        padding: 10px;
+        padding: 10px; 
     }
 }
 
@@ -381,6 +425,27 @@ input[type=submit]:hover {
 @media only screen and (min-width: 620px) and (max-width: 900px) {
 
     /*....... genral input..............*/
+
+    h1 {
+        font-size: 50px;
+    }
+
+    header nav a {
+        text-decoration: none;
+        color: #fffff8;
+        margin-right: 10px;
+        font-size: 20px;
+    }
+    
+    header nav a:hover {
+        font-size: 23px;
+      }
+
+    h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
     .moodPhoto {
         border-bottom: 8px solid #386870;
     }
@@ -414,6 +479,30 @@ input[type=submit]:hover {
     /*............About.................*/
     
     /*..............CV..................*/
+
+    .lessonsLearned {
+        display: inline-block;
+        width: 45%;
+        padding-left: 30px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .spacersInBetweenCV {
+        height: 10px;
+        width: 60%;
+        display: inline-flex;
+        margin-left: 20%;
+    }
+
+    .work {
+        display: inline-block;
+        width: 45%;
+        padding-left: 30px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
 
     /*............Contact...............*/
 
@@ -449,8 +538,28 @@ input[type=submit]:hover {
 @media only screen and (min-width: 900px) {
 
     /*....... genral input..............*/
+
+    
     .moodPhoto {
         border-bottom: 11px solid #386870;
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+
+    header nav a {
+        margin-right: 10px;
+        font-size: 25px;
+    }
+    
+    header nav a:hover {
+        font-size: 16px;
+      }
+
+    h2 {
+        font-size: 50px;
+        text-align: center;
     }
     
     /*...........Homepage...............*/
