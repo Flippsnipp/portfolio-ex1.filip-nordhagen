@@ -40,7 +40,7 @@ header {
     background-color: #386870;
     margin-right: auto;
     margin-left: auto;
-    min-height: 170px;
+
 }
 
 
@@ -48,10 +48,6 @@ header {
 
 .logo {
     float: left;
-    height: 30px;
-    width: 30px;
-    margin-top: 10px;
-    margin-left: 5px;
 }
 header nav a {
     text-decoration: none;
@@ -130,7 +126,8 @@ footer nav a {
 
 footer nav ul> li {
     display: block;
-    text-align: center;
+    text-align: left;
+    margin-left: 10%;
     
 }
 
@@ -153,9 +150,7 @@ h5 {
 
 /*.........Homepage.........*/
 
-.headerHome {
-    height: 320px;
-}
+
 
 .column {
     padding: 0 12px;
@@ -165,23 +160,15 @@ h5 {
 
 .containerProjects {
     display: flex;
-    justify-content: row;
-    padding: 2px;
+    padding: 5px;
     margin-top: 40px;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: -90px;
+    padding-left: 35%;
 }
 
 .viewbutton {
     background-color: #001B52;
-    max-width: 80px;
-    height: 50px;
     text-align: center;
-    border-radius: 7%;
-    margin-top: 50px;
-    margin-right: 3px;
-    margin-left: 2px;
-    padding: 2px;
     float: left;
 }
 
@@ -194,6 +181,17 @@ h5 {
 
 /*...........About..........*/
 
+
+.containerAboutMe {
+    padding: 15px;
+    margin-bottom: 5%;
+}
+
+.wrapperPhotoList {
+    display: flex;
+
+}
+
 .theThinkerAndMe {
     float: left;
 }
@@ -203,6 +201,13 @@ h5 {
     text-align: right;
 }
 
+.pageLinks {
+    color: #000015;
+}
+
+.pageLinks:hover {
+    font-size: larger;
+}
 
 /*.............CV............*/
 
@@ -261,37 +266,37 @@ form {
     margin: 0 auto;
 }
 
+.containerOptionsUsers {
+    display: inline-block;
+}
+
 .userOptions > label {
     color: #fffff8;
-    font-size: 14px;
     display: block;
     border: 1.5px solid #386770;
-    margin-right: 200px;
 }
 
 .userOptions > select {
     color: #000015;
-    font-size: 14px;
-    padding: 10px;
     display: block;
-    margin-bottom: 10px;
-    margin-left: 20px;
     border: 1.5px solid #386770;
 }
 
 input[type="text"] {
     color: #000015;
-    font-size: 17px;
-    padding: 10px;
     display: block;
-    margin-bottom: 10px;
-    margin-left: 20px;
     border: 1.5px solid #386770;
 }
 
+
 .containerContactInformation {
-    display: flex;
+    display: inline-block;
 }
+
+.wrapper {
+    display: inline-block;
+}
+
 
 textarea {
     width: 75%;
@@ -325,6 +330,17 @@ input[type=submit]:hover {
 @media only screen and (max-width: 620px) {
 
     /*....... genral input..............*/
+    
+    .headerHome {
+        height: 320px;
+    }
+
+    .logo {
+        height: 30px;
+        width: 30px;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
 
     h1 {
         font-size: 45px;
@@ -358,6 +374,16 @@ input[type=submit]:hover {
         width: 100%;
     }
 
+    .viewbutton {
+        max-width: 80px;
+        height: 60px;
+        border-radius: 7%;
+        margin-top: 50px;
+        margin-right: 3px;
+        margin-left: 2px;
+        padding: 5px;
+    }
+
     .platforms {
         height: 140px;
         width: 170px;
@@ -378,11 +404,6 @@ input[type=submit]:hover {
     }
     /*............About.................*/
 
-    .card {
-        padding: 22px;
-        font-size: 20px;
-    }
-
     .theThinkerAndMe {
         height: 110px;
         width: 110px;
@@ -391,9 +412,13 @@ input[type=submit]:hover {
     }
 
     .shortSummarize > li {
-        font-size: 25px;
+        font-size: 20px;
     }
 
+    .card {
+        padding: 22px;
+        font-size: 20px;
+    }
 
     
     /*..............CV..................*/
@@ -422,10 +447,38 @@ input[type=submit]:hover {
 
     /*............Contact...............*/
 
+    .contactform {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
     .userOptions > p {
         padding: 10px;
     }
 
+    .userOptions > label {
+        font-size: 14px;
+        width: 53%;
+    }
+
+    .userOptions > select {
+        font-size: 14px;
+        padding: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        border: 1.5px solid #386770;
+        width: 70%;
+    }
+    
+    input[type="text"] {
+        font-size: 17px;
+        padding: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        border: 1.5px solid #386770;
+        width: 70%;
+    }
+    
 
     .containerTextarea {
         text-align: center;
@@ -445,20 +498,32 @@ input[type=submit]:hover {
 @media only screen and (min-width: 620px) and (max-width: 900px) {
 
     /*....... genral input..............*/
+    
+    .headerHome {
+        height: 320px;
+    }
+
+    .logo {
+        height: 50px;
+        width: 50px;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
 
     h1 {
         font-size: 50px;
+        margin-top: 10px;
     }
 
     header nav a {
         text-decoration: none;
         color: #fffff8;
         margin-right: 10px;
-        font-size: 20px;
+        font-size: 25px;
     }
     
     header nav a:hover {
-        font-size: 23px;
+        font-size: 28px;
       }
 
     h2 {
@@ -484,17 +549,45 @@ input[type=submit]:hover {
         border-bottom: 20px solid #386770;
     }
 
+    footer nav ul> li {
+        margin-left: 10%;
+        font-size: 25px;
+    }
+
     /*...........Homepage...............*/
+
+    .future {
+        height: 400px;
+    }
+
+    .futureText {
+        padding-top: 28%;
+        text-align: center;
+    }
+
     .column {
         width: 100%;
     }
+
+    .viewbutton {
+        max-width: 100px;
+        height: 70px;
+        border-radius: 7%;
+        margin-top: 100px;
+        margin-right: 5px;
+        margin-left: 5px;
+        padding: 8px;
+    }
+
     .platforms {
-        height: 140px;
-        width: 180px;
+        height: 230px;
+        width: 260px;
+        float: right;
     }
     
     .allRightsReserved {
         margin-top: 10px;
+        font-size: 20px;
     }
     /*............About.................*/
 
@@ -516,14 +609,14 @@ input[type=submit]:hover {
     /*..............CV..................*/
 
     .cvHeaders {
-        font-size: 25px;
+        font-size: 35px;
         padding: 20px;
     
     }
 
     .icons {
-        height: 80px;
-        width: 80px;
+        height: 70px;
+        width: 70px;
         float: right;
         margin-bottom: 20px;
         margin-right: 50px;
@@ -559,6 +652,33 @@ input[type=submit]:hover {
         margin-left: 30px;
     }
 
+    .wrapper {
+        display: flex;
+        margin-left: 10%;
+    }
+
+    .userOptions > label {
+        width: 80%;
+    }
+
+    .userOptions > select {
+        font-size: 14px;
+        padding: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        border: 1.5px solid #386770;
+        width: 70%;
+    }
+    
+    input[type="text"] {
+        font-size: 17px;
+        padding: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        border: 1.5px solid #386770;
+        width: 70%;
+    }
+
     .containerTextarea {
         display: flex;
     }
@@ -587,6 +707,15 @@ input[type=submit]:hover {
 @media only screen and (min-width: 900px) {
 
     /*....... genral input..............*/
+    .logo {
+        height: 55px;
+        width: 55px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .headerList {
+        margin-left: 100px;
+    }
 
     
     .moodPhoto {
@@ -597,8 +726,10 @@ input[type=submit]:hover {
         font-size: 80px;
     }
 
+
     header nav a {
-        margin-right: 10px;
+        margin-top: 20px;
+        margin-right: 15px;
         font-size: 25px;
     }
     
@@ -616,8 +747,31 @@ input[type=submit]:hover {
         width: 100%;
     }
     /*............About.................*/
+
+    .theThinkerAndMe {
+        width: 240px;
+        height: 240px;
+        margin: 20px;
+    }
+
+    .card {
+        padding: 22px;
+        font-size: 25px;
+    }
+
+    .shortSummarize > li {
+        font-size: 35px;
+    }
+
     
     /*..............CV..................*/
 
     /*............Contact...............*/
+    
+    
+    .userOptions > label {
+        font-size: 14px;
+        width: 53%;
+    }
+
 }
