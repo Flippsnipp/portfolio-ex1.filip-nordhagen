@@ -125,7 +125,7 @@ footer {
     text-align: center;
 }
 
-footer nav a {
+footer  a {
     text-decoration: none;
     color: #fffff8;
 }
@@ -140,6 +140,7 @@ footer nav ul>li {
 .footerList {
     text-align: left;
 }
+
 
 h5 {
     padding: 10px;
@@ -378,6 +379,9 @@ input[type=submit]:hover {
         text-align: center;
     }
 
+    h1 {
+        font-size: 50px;
+    }
     .headerHome {
         height: 320px;
     }
@@ -387,10 +391,6 @@ input[type=submit]:hover {
         width: 30px;
         margin-top: 10px;
         margin-left: 5px;
-    }
-
-    h1 {
-        font-size: 45px;
     }
 
     h2 {
@@ -595,7 +595,7 @@ input[type=submit]:hover {
     }
 
     h1 {
-        font-size: 50px;
+        font-size: 70px;
         margin-top: 10px;
     }
 
@@ -841,7 +841,7 @@ input[type=submit]:hover {
     }
 
     h1 {
-        font-size: 80px;
+        font-size: 85px;
     }
 
 
